@@ -36,6 +36,7 @@ public class MyTextView extends View {
         textColor = typedArray.getColor(R.styleable.MyTextView_textColor, 0xffffff);
     }
     //绘画
+    //画  canvas画布
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
